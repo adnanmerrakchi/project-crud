@@ -9,7 +9,6 @@ import org.springframework.context.annotation.Scope;
 public class ConfigBens {
 
     @Bean
-    @Scope("singleton")
     public ModelMapper map(){
         return new ModelMapper();
     }
